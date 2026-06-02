@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colombia 5.0 - Proyecto Escolar</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+  <nav>
+    <div class="nav-logo">Colombia 5.0</div>
+    <ul class="nav-links">
+      <li><a href="#inicio" data-lang="es" class="visible">Inicio</a><a href="#inicio" data-lang="en">Home</a></li>
+      <li><a href="#conferencias" data-lang="es" class="visible">Conferencias</a><a href="#conferencias" data-lang="en">Conferences</a></li>
+      <li><a href="#glosario" data-lang="es" class="visible">Glosario</a><a href="#glosario" data-lang="en">Glossary</a></li>
+      <li><a href="#etica" data-lang="es" class="visible">Ética</a><a href="#etica" data-lang="en">Ethics</a></li>
+      <li><a href="#autor" data-lang="es" class="visible">Autor</a><a href="#autor" data-lang="en">Author</a></li>
+      <li><button class="lang-btn" onclick="toggleLang()" id="langBtn">EN</button></li>
+    </ul>
+  </nav>
+
+  <section id="inicio">
+    <img class="hero-img" src="../img.jpg/colombia5.jpeg" alt="Colombia 5.0">
+    <div class="hero-texto">
+      <h1 data-lang="es" class="visible">Colombia 5.0</h1>
+      <h1 data-lang="en">Colombia 5.0</h1>
+      <p data-lang="es" class="visible">Proyecto escolar que destaca la soberanía tecnológica, la inclusión digital y el libre acceso al conocimiento.</p>
+      <p data-lang="en">School project highlighting technological sovereignty, digital inclusion, and open access to knowledge.</p>
+      <div class="scroll-down" data-lang="es" class="visible">▼ Desplázate para explorar</div>
+      <div class="scroll-down" data-lang="en">▼ Scroll to explore</div>
+    </div>
+  </section>
+
+  <section id="conferencias">
+    <h2 class="section-title fade-in" data-lang="es" class="visible">Conferencias</h2>
+    <h2 class="section-title fade-in" data-lang="en">Conferences</h2>
+    <p class="section-intro fade-in" data-lang="es" class="visible">Resumen de los temas tratados en la conferencia Colombia 5.0.</p>
+    <p class="section-intro fade-in" data-lang="en">Summary of the topics covered at the Colombia 5.0 conference.</p>
+
+    <div class="conf-card fade-in">
+      <div class="conf-header">
+        <div class="conf-num">0</div>
+        <h2>Pensamiento Computacional e Inteligencia Artificial</h2>
+      </div>
+      <div class="conf-body">
+        <p data-lang="es" class="visible">La conferencia trató sobre el pensamiento computacional y la inteligencia artificial como herramientas para fortalecer la soberanía tecnológica. Se destacó la importancia de que las personas no sean solo consumidoras de tecnología, sino que comprendan cómo funciona y participen en su creación y desarrollo.</p>
+        <p data-lang="en">The conference discussed computational thinking and artificial intelligence as tools to strengthen technological sovereignty. It emphasized the importance of people not only consuming technology, but understanding how it works and participating in its creation and development.</p>
+        <p data-lang="es" class="visible">El conferencista explicó cómo el pensamiento computacional permite analizar y resolver problemas mediante cuatro etapas:</p>
+        <p data-lang="en">The speaker explained how computational thinking allows problem analysis and resolution through four stages:</p>
+        <ul>
+          <li data-lang="es" class="visible"><strong>Descomposición:</strong> Dividir el problema en partes más pequeñas.</li>
+          <li data-lang="en"><strong>Decomposition:</strong> Divide the problem into smaller parts.</li>
+          <li data-lang="es" class="visible"><strong>Reconocimiento de patrones:</strong> Identificar similitudes o comportamientos repetitivos.</li>
+          <li data-lang="en"><strong>Pattern recognition:</strong> Identify similarities or repetitive behaviors.</li>
+          <li data-lang="es" class="visible"><strong>Abstracción:</strong> Seleccionar la información más importante.</li>
+          <li data-lang="en"><strong>Abstraction:</strong> Select the most important information.</li>
+          <li data-lang="es" class="visible"><strong>Diseño de algoritmos:</strong> Crear pasos ordenados para resolver el problema.</li>
+          <li data-lang="en"><strong>Algorithm design:</strong> Create ordered steps to solve the problem.</li>
+        </ul>
+        <p data-lang="es" class="visible">También habló sobre la IA como una nueva mediación tecnológica y resaltó la importancia del software libre, el conocimiento abierto y la soberanía tecnológica para que las comunidades desarrollen sus propias soluciones.</p>
+        <p data-lang="en">He also spoke about AI as a new technological mediation and highlighted the importance of free software, open knowledge, and technological sovereignty so communities can develop their own solutions.</p>
+      </div>
+    </div>
+
+    <div class="conf-card fade-in">
+      <div class="conf-header">
+        <div class="conf-num">1</div>
+        <h2>Inteligencia Artificial</h2>
+      </div>
+      <div class="conf-body">
+        <p>Se habló sobre cómo la IA puede mejorar la productividad y el acceso a servicios en Colombia.</p>
+        <ul>
+          <li>Importancia de la soberanía tecnológica.</li>
+          <li>Ventajas del software libre.</li>
+          <li>Formación de ciudadanos críticos.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="conf-card fade-in">
+      <div class="conf-header">
+        <div class="conf-num">2</div>
+        <h2>Digitalización y ética</h2>
+      </div>
+      <div class="conf-body">
+        <p>La conferencia enfatizó la ética digital, la transparencia y la inclusión.</p>
+        <ul>
+          <li>Reducción de la brecha digital.</li>
+          <li>Respeto a la privacidad.</li>
+          <li>Democratización del acceso.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="conf-card fade-in">
+      <div class="conf-header">
+        <div class="conf-num">3</div>
+        <h2>Software Libre: Antídoto a la Brecha Digital</h2>
+      </div>
+      <div class="conf-body">
+        <p data-lang="es" class="visible">El conferencista explicó que el software libre ayuda a reducir la brecha digital porque permite que cualquier persona use, estudie, modifique y distribuya programas sin costos de licencias.</p>
+        <p data-lang="en">The speaker explained that free software helps reduce the digital divide because it allows anyone to use, study, modify, and distribute programs without license costs.</p>
+        <p data-lang="es" class="visible">Se mencionaron tres pilares fundamentales:</p>
+        <p data-lang="en">Three fundamental pillars were mentioned:</p>
+        <ul>
+          <li data-lang="es" class="visible"><strong>Libertad:</strong> Adaptar soluciones tecnológicas a necesidades locales.</li>
+          <li data-lang="en"><strong>Freedom:</strong> Adapting technology solutions to local needs.</li>
+          <li data-lang="es" class="visible"><strong>Economía:</strong> Evitar costos de licencias e invertir más en ciudadanos.</li>
+          <li data-lang="en"><strong>Economy:</strong> Avoiding license costs and investing more in citizens.</li>
+          <li data-lang="es" class="visible"><strong>Transparencia:</strong> Permitir la inspección pública del código.</li>
+          <li data-lang="en"><strong>Transparency:</strong> Allowing public inspection of the code.</li>
+        </ul>
+        <h3 data-lang="es" class="visible">Historia: La Lucha Contra el Monopolio</h3>
+        <h3 data-lang="en">History: The Fight Against Monopoly</h3>
+        <p data-lang="es" class="visible">Se presentó el origen del movimiento del software libre, destacando la creación de la Free Software Foundation (FSF) y el proyecto GNU como respuesta a la concentración del poder tecnológico en grandes corporaciones.</p>
+        <p data-lang="en">The origin of the free software movement was presented, highlighting the creation of the Free Software Foundation (FSF) and the GNU project as a response to the concentration of technological power in large corporations.</p>
+        <ul>
+          <li data-lang="es" class="visible">Evitar los monopolios tecnológicos.</li>
+          <li data-lang="en">Avoid technological monopolies.</li>
+          <li data-lang="es" class="visible">Promover la colaboración abierta.</li>
+          <li data-lang="en">Promote open collaboration.</li>
+          <li data-lang="es" class="visible">Garantizar el acceso al conocimiento.</li>
+          <li data-lang="en">Guarantee access to knowledge.</li>
+          <li data-lang="es" class="visible">Fortalecer el desarrollo tecnológico soberano.</li>
+          <li data-lang="en">Strengthen sovereign technological development.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="fade-in" style="margin-top: 2rem;">
+      <h3 data-lang="es">📸 Fotos de la Conferencia</h3>
+      <h3 data-lang="en">📸 Conference Photos</h3>
+      <div class="galeria-grid" id="galeriaGrid"></div>
+    </div>
+  </section>
+
+  <section id="glosario">
+    <h2 class="section-title fade-in" data-lang="es" class="visible">Glosario</h2>
+    <h2 class="section-title fade-in" data-lang="en">Glossary</h2>
+    <p class="section-intro fade-in" data-lang="es" class="visible">Términos clave de tecnología y libertad digital.</p>
+    <p class="section-intro fade-in" data-lang="en">Key terms about technology and digital freedom.</p>
+    <div class="glosario-grid fade-in">
+      <div class="glosario-item">
+        <strong data-lang="es" class="visible">Inteligencia Artificial (IA)</strong>
+        <strong data-lang="en">Artificial Intelligence (AI)</strong>
+        <span data-lang="es" class="visible">Tecnología que simula capacidades humanas.</span>
+        <span data-lang="en">Technology that simulates human capabilities.</span>
+      </div>
+      <div class="glosario-item">
+        <strong data-lang="es" class="visible">Brecha Digital</strong>
+        <strong data-lang="en">Digital Divide</strong>
+        <span data-lang="es" class="visible">Diferencia de acceso a la tecnología.</span>
+        <span data-lang="en">Difference in access to technology.</span>
+      </div>
+      <div class="glosario-item">
+        <strong data-lang="es" class="visible">Software Libre</strong>
+        <strong data-lang="en">Free Software</strong>
+        <span data-lang="es" class="visible">Software que se puede usar y compartir libremente.</span>
+        <span data-lang="en">Software that can be used and shared freely.</span>
+      </div>
+      <div class="glosario-item">
+        <strong data-lang="es" class="visible">Algoritmo</strong>
+        <strong data-lang="en">Algorithm</strong>
+        <span data-lang="es" class="visible">Conjunto de pasos para resolver un problema.</span>
+        <span data-lang="en">A set of steps to solve a problem.</span>
+      </div>
+      <div class="glosario-item">
+        <strong data-lang="es" class="visible">Ciberseguridad</strong>
+        <strong data-lang="en">Cybersecurity</strong>
+        <span data-lang="es" class="visible">Protección de sistemas y datos frente a ataques.</span>
+        <span data-lang="en">Protection of systems and data against attacks.</span>
+      </div>
+      <div class="glosario-item">
+        <strong data-lang="es" class="visible">Monopolio Tecnológico</strong>
+        <strong data-lang="en">Technological Monopoly</strong>
+        <span data-lang="es" class="visible">Situación donde pocas empresas controlan el mercado tecnológico.</span>
+        <span data-lang="en">A situation where few companies control the technology market.</span>
+      </div>
+      <div class="glosario-item">
+        <strong data-lang="es" class="visible">Soberanía Tecnológica</strong>
+        <strong data-lang="en">Technological Sovereignty</strong>
+        <span data-lang="es" class="visible">Control y desarrollo de tecnología propia.</span>
+        <span data-lang="en">Control and development of own technology.</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="etica">
+    <h2 class="section-title fade-in" data-lang="es" class="visible">Referencia Ética</h2>
+    <h2 class="section-title fade-in" data-lang="en">Ethical Reference</h2>
+    <p class="section-intro fade-in" data-lang="es" class="visible">Valores que guían el uso responsable de la tecnología.</p>
+    <p class="section-intro fade-in" data-lang="en">Values guiding the responsible use of technology.</p>
+    <div class="etica-box fade-in">
+      <h3 data-lang="es" class="visible">💡 Uso Responsable de la Tecnología</h3>
+      <h3 data-lang="en">💡 Responsible Use of Technology</h3>
+      <p data-lang="es" class="visible">La tecnología debe servir al bien común, promover la inclusión y respetar la libertad de las personas.</p>
+      <p data-lang="en">Technology should serve the common good, promote inclusion, and respect people's freedom.</p>
+      <div class="valores-grid">
+        <span class="valor-tag" data-lang="es" class="visible">Transparencia</span>
+        <span class="valor-tag" data-lang="en">Transparency</span>
+        <span class="valor-tag" data-lang="es" class="visible">Inclusión Digital</span>
+        <span class="valor-tag" data-lang="en">Digital Inclusion</span>
+        <span class="valor-tag" data-lang="es" class="visible">Libertad</span>
+        <span class="valor-tag" data-lang="en">Freedom</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="autor">
+    <h2 class="section-title fade-in" data-lang="es" class="visible">Autor</h2>
+    <h2 class="section-title fade-in" data-lang="en">Author</h2>
+    <div class="autor-box fade-in">
+      <p data-lang="es" class="visible"><strong>Autor:</strong> Danny Johana Heredia</p>
+      <p data-lang="en"><strong>Author:</strong> Danny Johana Heredia</p>
+      <p data-lang="es" class="visible">GitHub: <a href="https://github.com/Danny200431" target="_blank" rel="noopener">https://github.com/Danny200431</a></p>
+      <p data-lang="en">GitHub: <a href="https://github.com/Danny200431" target="_blank" rel="noopener">https://github.com/Danny200431</a></p>
+      <p data-lang="es" class="visible">Este trabajo presenta las ideas principales de la conferencia y la importancia de generar una cultura digital inclusiva.</p>
+      <p data-lang="en">This work presents the main ideas from the conference and the importance of building an inclusive digital culture.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p data-lang="es" class="visible">Proyecto Colombia 5.0 — Acceso, Soberanía y Productividad · En alianza con Trece · 2026</p>
+    <p data-lang="en">Colombia 5.0 Project — Access, Sovereignty and Productivity · In partnership with Trece · 2026</p>
+  </footer>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lb-close" onclick="closeLB()">✕</button>
+    <button class="lb-prev" onclick="changeLB(-1)">‹</button>
+    <img id="lbImg" src="" alt="Foto conferencia">
+    <button class="lb-next" onclick="changeLB(1)">›</button>
+  </div>
+
+  <script src="../JS/script.js" defer></script>
+</body>
+</html>
