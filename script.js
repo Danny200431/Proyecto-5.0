@@ -1,16 +1,17 @@
 var currentLang = 'es';
 var lbIndex = 0;
+var basePath = (window.location.pathname.indexOf('/HTML/') !== -1 || window.location.pathname.indexOf('\\HTML\\') !== -1) ? '../' : '';
 var confImgs = [
-  '../img.jpg/foto1.jpeg',
-  '../img.jpg/foto2.jpeg',
-  '../img.jpg/foto3.jpeg',
-  '../img.jpg/foto4.jpeg',
-  '../img.jpg/foto5.jpeg',
-  '../img.jpg/foto6.jpeg',
-  '../img.jpg/foto7.jpeg',
-  '../img.jpg/foto8.jpeg',
-  '../img.jpg/foto9.jpeg',
-  '../img.jpg/foto10.jpeg'
+  basePath + 'foto1.jpeg',
+  basePath + 'foto2.jpeg',
+  basePath + 'foto3.jpeg',
+  basePath + 'foto4.jpeg',
+  basePath + 'foto5.jpeg',
+  basePath + 'foto6.jpeg',
+  basePath + 'foto7.jpeg',
+  basePath + 'foto8.jpeg',
+  basePath + 'foto9.jpeg',
+  basePath + 'foto10.jpeg'
 ];
 
 function createGallery() {
